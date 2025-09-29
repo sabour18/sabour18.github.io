@@ -25,7 +25,6 @@ function hamLinks(){
 function load(){
 
     hamLinks();
-
 }
 
 
