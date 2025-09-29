@@ -11,7 +11,7 @@
 
 
 <div class="qGisMap">
-    <iframe src="../qgis2web/index.html" width="100%" height="600px" style="border:none;"></iframe>
+    <iframe class="mapFrame" src="../qgis2web/index.html" width="100%"style="border:none;"></iframe>
 </div>
 
 <style>
@@ -22,9 +22,13 @@
         justify-content:center;
         width:90%;
     }
+    .mapFrame {
+        margin-top:400px;
+        height: 90vh;
+    }
     @media only screen and (max-width:767px) {
         .qGisMap {
-            height:90%;
+            height:4vh !important;
         }
     }
 </style>
